@@ -1,0 +1,88 @@
+"use client";
+
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useEffect, useRef } from "react";
+
+export default function HeroSection() {
+  const router = useRouter();
+  const parallaxRef = useRef(null);
+
+  const handleButtonClick = (type) => {
+    localStorage.setItem('selectedCohortType', type);
+    router.push(`/get-started?type=${type}`);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (parallaxRef.current) {
+        const scrolled = window.pageYOffset;
+        const rate = scrolled * 0.3;
+        parallaxRef.current.style.transform = `translateY(${rate}px)`;
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <section className="relative bg-gradient-to-br from-red-600 via-red-700 to-red-800 text-white py-12 px-4 animate-fadeIn overflow-hidden animated-bg-pattern">
+      {/* Subtle background pattern */}
+      <div className="absolute inset-0 opacity-10 animated-bg-dots"></div>
+      {/* Parallax background layer */}
+      <div 
+        ref={parallaxRef}
+        className="absolute inset-0 opacity-5" 
+        style={{
+          willChange: 'transform'
+        }}
+      >
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%)',
+          backgroundSize: '200% 200%',
+          animation: 'shimmer 8s ease-in-out infinite'
+        }}></div>
+      </div>
+      
+      <div className="max-w-7xl mx-auto text-center relative z-10">
+        <div className="mb-3 text-sm font-semibold tracking-[0.2em] uppercase text-red-100 opacity-90">
+          Inspire - Action - Growth
+        </div>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 leading-tight">
+          VRT Entrepreneur Growth Alliance™ (EGA)
+        </h1>
+        <p className="text-base md:text-lg lg:text-xl mb-4 text-red-50 font-medium max-w-4xl mx-auto">
+          A 12-Month Growth & Execution Journey for Entrepreneur-Led Companies
+        </p>
+        <p className="text-base md:text-lg mb-6 max-w-3xl mx-auto text-red-100 leading-relaxed">
+          Scale profitably. Reduce owner dependence. Increase enterprise value through proven leadership, strategy, and execution systems.
+        </p>
+        <div className="text-xl md:text-2xl font-semibold mb-6 text-red-50 italic">
+          Growth is not an event. Growth is a process.
+        </div>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <button
+            onClick={() => handleButtonClick('online')}
+            className="ripple group bg-white text-red-600 px-8 py-4 rounded-xl font-semibold hover:bg-red-50 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95 cursor-pointer text-base md:text-lg min-w-[280px]"
+          >
+            Join Online Cohort • Starts March 19
+            <svg className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+          <button
+            onClick={() => handleButtonClick('in-person')}
+            className="ripple group bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-red-600 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 cursor-pointer text-base md:text-lg min-w-[280px]"
+          >
+            Apply for In-Person Cohort • Starts April 14-15
+            <svg className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+}
+
