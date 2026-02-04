@@ -20,6 +20,7 @@ import CompaniesHelpedSection from "@/components/CompaniesHelpedSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import FAQSSection from "@/components/FAQSSection";
 import FinalCTASection from "@/components/FinalCTASection";
+import PaymentSection from "@/components/PaymentSection";
 import ScrollToTop from "@/components/ScrollToTop";
 import StickyHeader from "@/components/StickyHeader";
 import ScrollIndicator from "@/components/ScrollIndicator";
@@ -37,6 +38,7 @@ export default function Home() {
       <RealProblemSection />
       <ProgramOverviewSection />
       <EntryPaths />
+      <PaymentSection />
       <WhatSuccessLooksLikeSection />
       <GrowthAsProcessSection />
       <ScaleBusinessFasterSection />
@@ -432,6 +434,7 @@ export default function Home() {
 
       <TestimonialsSection />
       <FAQSSection />
+      <PaymentSection />
       <FinalCTASection />
       </div>
       <Footer />

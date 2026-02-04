@@ -102,6 +102,22 @@ body {
   animation: scaleIn 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
+/* Subtle pulsing zoom for CTA buttons */
+@keyframes pulseScale {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px -10px rgba(220, 38, 38, 0.5);
+  }
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 18px 35px -10px rgba(220, 38, 38, 0.7);
+  }
+}
+
+.btn-pulse-scale {
+  animation: pulseScale 1.8s ease-in-out infinite;
+}
+
 .animate-delay-100 {
   animation-delay: 0.1s;
   opacity: 0;
@@ -326,4 +342,38 @@ button {
   -webkit-mask-composite: xor;
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
+}
+
+/* Rotating animated gradient border */
+@keyframes rotate-border {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animated-gradient-border {
+  position: relative;
+  border-radius: 1.5rem;
+}
+
+.animated-gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(135deg, #dc2626, #f97316, #eab308);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+.animated-gradient-border__inner {
+  position: relative;
+  border-radius: inherit;
+  background: #ffffff;
 }
