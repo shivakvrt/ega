@@ -53,10 +53,10 @@ export default function HeroSection() {
           VRT Entrepreneur Growth Alliance™ (EGA)
         </h1>
         <p className="text-base md:text-lg lg:text-xl mb-4 text-red-50 font-medium max-w-4xl mx-auto">
-          A 12-Month Growth & Execution Journey for Entrepreneur-Led Companies
+          A 12-Month Growth & Execution Journey for Entrepreneur-Led Companies and SMBs
         </p>
         <p className="text-base md:text-lg mb-6 max-w-3xl mx-auto text-red-100 leading-relaxed">
-          Scale profitably. Reduce owner dependence. Increase enterprise value through proven leadership, strategy, and execution systems.
+          Scale your business with people, process, and strategy transformation.
         </p>
         <div className="text-xl md:text-2xl font-semibold mb-6 text-red-50 italic">
           Growth is not an event. Growth is a process.
@@ -66,7 +66,7 @@ export default function HeroSection() {
             onClick={() => handleButtonClick('online')}
             className="ripple group bg-white text-red-600 px-8 py-4 rounded-xl font-semibold hover:bg-red-50 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95 cursor-pointer text-base md:text-lg min-w-[280px]"
           >
-            Join Online Cohort • Starts March 19
+            Join Online Cohort • Starts March 19, 2026
             <svg className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
@@ -75,7 +75,7 @@ export default function HeroSection() {
             onClick={() => handleButtonClick('in-person')}
             className="ripple group bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-red-600 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 cursor-pointer text-base md:text-lg min-w-[280px]"
           >
-            Apply for In-Person Cohort • Starts April 14-15
+            Apply for In-Person Cohort • Starts April 15, 2026
             <svg className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

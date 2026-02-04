@@ -21,7 +21,7 @@ export default function EntryPaths() {
         </AnimatedCard>
         <AnimatedCard animationType="fadeIn" delay={100}>
           <p className="text-center text-lg text-gray-600 mb-12">
-            The EGA™ Growth Journey is intentionally designed in <strong>two phases</strong>.
+            The EGA™ Growth Journey is designed in <strong>two phases</strong>.
           </p>
         </AnimatedCard>
         <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -29,7 +29,7 @@ export default function EntryPaths() {
             <EntryPathCard
               type="online"
               title="OPTION 1: Online EGA™ Cohort"
-              startDate="Start Date: March 19"
+              startDate="Start Date: March 19, 2026"
               schedule={{
                 title: "Weekly Schedule (First 10 Weeks):",
                 time: "11:00 AM – 1:00 PM EST",
@@ -51,7 +51,7 @@ export default function EntryPaths() {
             <EntryPathCard
               type="in-person"
               title="OPTION 2: In-Person EGA™ Cohort (Premium Immersive)"
-              startDate="Start Dates: April 14–15"
+              startDate="Start Dates: April 15, 2026"
               schedule={{
                 title: "Daily Schedule:",
                 time: "9:00 AM – 5:00 PM (Includes lunch & snack breaks)"

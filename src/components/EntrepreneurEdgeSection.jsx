@@ -24,7 +24,7 @@ export default function EntrepreneurEdgeSection() {
     },
     {
       label: "39+ Years",
-      tooltip: "Over 39 years of leadership and business scaling experience",
+      tooltip: "39+ years of leadership and business scaling experience",
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -98,7 +98,7 @@ export default function EntrepreneurEdgeSection() {
                 I'm Rajesh Tedla, Founder and CEO of VRT Management Group, LLC and since 2018 a mentor for the Stanford LBAN Entrepreneur Workshop where I guide growth-focused entrepreneurs from around the world.
               </p>
               <p className="text-gray-700 mb-8 leading-relaxed text-lg">
-                With over 39+ years of experience I've dedicated my career to helping business leaders achieve sustainable scalable growth. I've personally guided more than 1,420+ entrepreneurs across 28+ countries through transformative scaling journeys using proven methodologies that have generated over $520 million in measurable business growth.
+                With 39+ years of experience I've dedicated my career to helping business leaders achieve sustainable scalable growth. I've personally guided more than 1,420+ entrepreneurs across 28+ countries through transformative scaling journeys using proven methodologies that have generated over $520 million in measurable business growth.
               </p>
               <button
                 onClick={() => {

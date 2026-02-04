@@ -7,7 +7,7 @@ import AnimatedCounter from "./AnimatedCounter";
 export default function WhatIsEGASection() {
   const metrics = [
     { 
-      number: "40+", 
+      number: "39+", 
       numberType: "years",
       desc: "of leadership and business experience",
       icon: (

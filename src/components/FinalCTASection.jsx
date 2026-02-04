@@ -23,7 +23,7 @@ export default function FinalCTASection() {
           }}
           className="bg-white text-red-600 px-8 py-4 rounded-xl font-semibold hover:bg-red-50 transition-colors shadow-lg text-lg cursor-pointer"
         >
-          Join Online EGA™ Cohort • Starts March 19
+          Join Online EGA™ Cohort • Starts March 19, 2026
         </button>
         <button
           onClick={() => {
@@ -32,7 +32,7 @@ export default function FinalCTASection() {
           }}
           className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-red-600 transition-colors text-lg cursor-pointer"
         >
-          Apply for In-Person EGA™ Cohort • Starts April 14-15
+          Apply for In-Person EGA™ Cohort • Starts April 15, 2026
         </button>
       </div>
     </Section>

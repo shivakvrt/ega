@@ -59,7 +59,7 @@ export default function GetStartedPage() {
               <div className="px-4 py-4 bg-black bg-opacity-60 backdrop-blur-md">
                 <div className="text-white">
                   <p className="text-base font-semibold mb-1">
-                    Want to grow your business by 20% in the next year?
+                    Want to grow your business by 30 - 50% in the next year?
                   </p>
                   <p className="text-sm mb-1">Call us</p>
                   <p className="text-sm font-bold">• Rajesh Tedla</p>

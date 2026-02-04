@@ -29,7 +29,7 @@ export default function EntryPathCard({
           ) : (
             <>
               <p className="text-gray-700">4 Full In-Person Days Total</p>
-              <p className="text-gray-700">April 14–15 (Days 1–2)</p>
+              <p className="text-gray-700">April 15, 2026 (Days 1–2)</p>
               <p className="text-gray-700">Second 2-day session after a 2–3-week gap</p>
             </>
           )}

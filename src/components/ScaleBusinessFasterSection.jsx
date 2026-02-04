@@ -21,29 +21,31 @@ export default function ScaleBusinessFasterSection() {
             VRT Management Group helps USA-focused SMB owners/CEOs turn "stuck" into clear priorities, strong execution, and predictable profit without guessing what to do next.
           </p>
         </AnimatedCard>
-        <div className="space-y-4 mb-8">
-          <AnimatedCard animationType="fadeIn" delay={200}>
-            <div className="bg-red-50 border-2 border-red-300 rounded-xl p-4 flex items-center gap-4 hover:bg-red-100 hover:border-red-400 transition-all duration-300 hover:shadow-md group">
-              <svg className="w-6 h-6 text-red-600 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              <div>
-                <span className="text-gray-700 font-semibold">Online EGA™ Cohort</span>
-                <span className="text-gray-700 block text-sm mt-1">Start Date: March 19</span>
+        <div className="mb-8 space-y-4">
+          <div className="grid md:grid-cols-2 gap-4">
+            <AnimatedCard animationType="fadeIn" delay={200}>
+              <div className="bg-red-50 border-2 border-red-300 rounded-xl p-4 flex items-center gap-4 hover:bg-red-100 hover:border-red-400 transition-all duration-300 hover:shadow-md group">
+                <svg className="w-6 h-6 text-red-600 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <div>
+                  <span className="text-gray-700 font-semibold">Online EGA™ Cohort</span>
+                  <span className="text-gray-700 block text-sm mt-1">Start Date: March 19, 2026</span>
+                </div>
               </div>
-            </div>
-          </AnimatedCard>
-          <AnimatedCard animationType="fadeIn" delay={250}>
-            <div className="bg-red-50 border-2 border-red-300 rounded-xl p-4 flex items-center gap-4 hover:bg-red-100 hover:border-red-400 transition-all duration-300 hover:shadow-md group">
-              <svg className="w-6 h-6 text-red-600 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              <div>
-                <span className="text-gray-700 font-semibold">In-Person EGA™ Cohort (Premium Immersive)</span>
-                <span className="text-gray-700 block text-sm mt-1">Start Dates: April 14–15</span>
+            </AnimatedCard>
+            <AnimatedCard animationType="fadeIn" delay={250}>
+              <div className="bg-red-50 border-2 border-red-300 rounded-xl p-4 flex items-center gap-4 hover:bg-red-100 hover:border-red-400 transition-all duration-300 hover:shadow-md group">
+                <svg className="w-6 h-6 text-red-600 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                <div>
+                  <span className="text-gray-700 font-semibold">In-Person EGA™ Cohort (Premium Immersive)</span>
+                  <span className="text-gray-700 block text-sm mt-1">Start Dates: April 15, 2026</span>
+                </div>
               </div>
-            </div>
-          </AnimatedCard>
+            </AnimatedCard>
+          </div>
           <AnimatedCard animationType="fadeIn" delay={300}>
             <div className="bg-red-50 border-2 border-red-300 rounded-xl p-4 flex items-center gap-4 hover:bg-red-100 hover:border-red-400 transition-all duration-300 hover:shadow-md group">
               <div className="w-6 h-6 bg-red-600 rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">

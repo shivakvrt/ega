@@ -411,7 +411,7 @@ export default function Home() {
             <ol className="space-y-4 text-lg text-gray-700">
               <li className="flex items-start">
                 <span className="font-bold text-red-600 mr-3">1.</span>
-                <span>Choose <strong>Online (March 19)</strong> or <strong>In-Person (April 14–15)</strong></span>
+                <span>Choose <strong>Online (March 19, 2026)</strong> or <strong>In-Person (April 15, 2026)</strong></span>
               </li>
               <li className="flex items-start">
                 <span className="font-bold text-red-600 mr-3">2.</span>
