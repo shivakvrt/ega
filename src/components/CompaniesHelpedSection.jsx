@@ -16,127 +16,103 @@ export default function CompaniesHelpedSection() {
         <div className="flex animate-scroll">
           {[...Array(2)].map((_, setIndex) => (
             <div key={setIndex} className="flex flex-shrink-0">
-              {/* LATICRETE */}
+              {/* 001 */}
               <div className="border-l border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="text-center">
-                  <div className="flex gap-1 mb-2 justify-center">
-                    {[...Array(10)].map((_, i) => (
-                      <div key={i} className="w-4 h-4 bg-red-400 border border-gray-300"></div>
-                    ))}
-                  </div>
-                  <p className="text-lg font-bold text-gray-900">LATICRETE</p>
-                </div>
+                <img
+                  src="/001.png"
+                  alt="Company logo 001"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
               
-              {/* DE HARO RAMIREZ GROUP */}
+              {/* 002 */}
               <div className="border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="text-center">
-                  <div className="w-12 h-8 bg-teal-600 rounded mb-2 mx-auto"></div>
-                  <p className="text-sm font-semibold text-teal-700">DE HARO</p>
-                  <p className="text-sm font-semibold text-teal-700">RAMIREZ</p>
-                  <p className="text-sm font-semibold text-teal-700">GROUP</p>
-                  <p className="text-xs text-gray-500 mt-1">San Francisco, CA</p>
-                </div>
+                <img
+                  src="/002.png"
+                  alt="Company logo 002"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
               
-              {/* Interpreters and Translators, Inc. */}
+              {/* 004 */}
               <div className="border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-purple-700 border border-gray-300 rounded flex items-center justify-center">
-                    <span className="text-gray-300 text-xs">ii</span>
-                  </div>
-                  <div>
-                    <p className="text-sm font-semibold text-purple-700">Interpreters and</p>
-                    <p className="text-sm font-semibold text-purple-700">Translators, Inc.</p>
-                  </div>
-                </div>
+                <img
+                  src="/004.png"
+                  alt="Company logo 004"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
               
-              {/* ASH BROKERAGE */}
+              {/* 005 */}
               <div className="border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="text-center">
-                  <div className="w-8 h-8 bg-green-600 rounded mb-2 mx-auto flex items-center justify-center">
-                    <span className="text-white text-xs">🌳</span>
-                  </div>
-                  <p className="text-xl font-bold text-green-600">ASH</p>
-                  <p className="text-sm font-semibold text-green-600">BROKERAGE</p>
-                </div>
+                <img
+                  src="/005.png"
+                  alt="Company logo 005"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
               
-              {/* CONVEYCO */}
+              {/* 007 */}
               <div className="border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="text-center">
-                  <p className="text-xl font-bold text-red-700">CONVEYCO</p>
-                  <p className="text-xs text-red-500 mt-1">Good people. Great solutions.</p>
-                </div>
+                <img
+                  src="/007.png"
+                  alt="Company logo 007"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
               
-              {/* Jersey City Medical Center / RWJBarnabas Health */}
+              {/* 009 */}
               <div className="border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="text-center">
-                  <p className="text-sm font-semibold text-red-600">Jersey City Medical Center</p>
-                  <div className="flex items-center gap-2 mt-1 justify-center">
-                    <span className="text-red-600 font-semibold">RWJBarnabas</span>
-                    <span className="text-xs text-red-600">HEALTH</span>
-                  </div>
-                </div>
+                <img
+                  src="/009.png"
+                  alt="Company logo 009"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
               
-              {/* horizon services company */}
+              {/* 010 */}
               <div className="border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                    <span className="text-white text-xs">☀</span>
-                  </div>
-                  <div>
-                    <p className="font-semibold text-gray-900">horizon</p>
-                    <p className="text-xs text-gray-600">services company</p>
-                  </div>
-                </div>
+                <img
+                  src="/010.png"
+                  alt="Company logo 010"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
               
-              {/* Superior Sign & Lighting */}
+              {/* 015 */}
               <div className="border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="text-center">
-                  <p className="text-xl font-bold text-red-600">SUPERIOR</p>
-                  <p className="text-xs text-gray-600">SIGN & LIGHTING</p>
-                </div>
+                <img
+                  src="/015.png"
+                  alt="Company logo 015"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
               
-              {/* MedPro Group */}
+              {/* 027 */}
               <div className="border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-gradient-to-br from-red-500 to-red-600 rounded"></div>
-                  <div>
-                    <p className="font-semibold text-gray-700">MedPro Group</p>
-                    <p className="text-xs text-gray-500">a Berkshire Hathaway company</p>
-                  </div>
-                </div>
+                <img
+                  src="/027.png"
+                  alt="Company logo 027"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
               
               {/* Cynergy */}
               <div className="border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-red-700 rounded-full flex items-center justify-center">
-                    <span className="text-white text-xs">★</span>
-                  </div>
-                  <div>
-                    <p className="font-bold text-red-700">Cynergy</p>
-                  </div>
-                </div>
+                <img
+                  src="/Cynergy-Logo-1.png"
+                  alt="Cynergy logo"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
               
               {/* STAAMP / South Texas Allergy & Asthma */}
               <div className="border-r border-gray-300 px-12 py-6 flex items-center justify-center min-w-[200px]">
-                <div className="text-center">
-                  <div className="w-10 h-10 bg-yellow-200 border-2 border-yellow-400 rounded mb-2 mx-auto flex items-center justify-center">
-                    <span className="text-green-600 text-xs">🌳</span>
-                  </div>
-                  <p className="text-lg font-bold text-red-700">STAAMP</p>
-                  <p className="text-xs text-red-700">SOUTH TEXAS</p>
-                  <p className="text-xs text-red-700">Allergy & Asthma</p>
-                  <p className="text-xs text-gray-500 mt-1">MEDICAL PROFESSIONALS</p>
-                </div>
+                <img
+                  src="/STAAMP-Logo-2.png"
+                  alt="STAAMP logo"
+                  className="h-16 md:h-20 object-contain"
+                />
               </div>
             </div>
           ))}
